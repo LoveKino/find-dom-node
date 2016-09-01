@@ -1,0 +1,30 @@
+{
+    "name": "find-dom-node",
+    "version": "0.0.1",
+    "description": "find the most possible node in dom tree according to node info",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LoveKino/find-dom-node.git"
+    },
+    "keywords": [
+        "find",
+        "dom",
+        "node",
+        "heuristic"
+    ],
+    "author": "ddchen",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LoveKino/find-dom-node/issues"
+    },
+    "homepage": "https://github.com/LoveKino/find-dom-node#readme",
+    "link_dependencies": {
+        "dom-node-similarity": "~0.0.1",
+        "bolzano": "~0.0.1",
+        "serialize-front": "~0.0.1"
+    }
+}
