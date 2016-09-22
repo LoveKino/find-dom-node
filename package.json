@@ -23,8 +23,8 @@
     },
     "homepage": "https://github.com/LoveKino/find-dom-node#readme",
     "link_dependencies": {
-        "dom-node-similarity": "~0.0.1",
         "bolzano": "~0.0.1",
+        "dom-node-similarity": "~0.0.1",
         "serialize-front": "~0.0.1"
     }
 }
