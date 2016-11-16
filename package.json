@@ -1,6 +1,6 @@
 {
   "name": "find-dom-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "find the most possible node in dom tree according to node info",
   "main": "index.js",
   "scripts": {

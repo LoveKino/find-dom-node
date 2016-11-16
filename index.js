@@ -92,7 +92,7 @@ let getAllNodes = (parent, selector = '*') => {
     let rets = [];
     for (let i = 0; i < nodes.length; i++) {
         let node = nodes[i];
-        if (!contain(['HEAD', 'SCRIPT', 'LINK'], node.tagName)) {
+        if (!contain(['HEAD', 'SCRIPT', 'LINK', 'META', 'NOSCRIPT', 'STYLE', 'TITLE', 'BASE'], node.tagName)) {
             rets.push(node);
         }
     }
